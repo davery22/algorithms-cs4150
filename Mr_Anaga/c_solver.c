@@ -42,9 +42,9 @@ int main() {
         table_cap_mask <<= 1;
     }
     table_cap_mask <<= 2; // Ensure table capacity > 4*n, for better hashing
-    table_cap_mask -= 1;
 
-    table_element *hash_table = (table_element *)calloc(table_cap_mask + 1, sizeof(table_element));
+    table_element *hash_table = (table_element *)calloc(table_cap_mask, sizeof(table_element));
+    table_cap_mask -= 1;
     int letter_cnts[26] = {0};
     int space = (k+1) > 104 ? (k+1) : 104;
 
