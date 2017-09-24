@@ -1,6 +1,6 @@
-#Solution to the 'Galaxy Quest' problem
+# Solution to the 'Galaxy Quest' problem
 
-##Description
+## Description
 NASA recently confirmed the discovery of parallel universes (PUs) occupying alternate dimensions. These universes are quite different from our own universe, in the following ways:
 
 Each PU is a two-dimensional square that stretches 10^9 light years from left to right and from top to bottom.
@@ -12,7 +12,7 @@ For each PU, NASA has obtained all of its stellar coordinates and has measured i
 
 Given the description of a PU, NASA would like to be able to determine whether that PU has a galaxy that contains more than half of the stars in the PU. NASA has turned to you.
 
-##Input
+## Input
 The input describes a single PU. All numbers in the input are integers.
 
 The first line of the input contains the PU’s galactic diameter _d_ (1≤_d_≤10^6) and star count _k_ (1≤_k_≤10^6).
@@ -21,14 +21,14 @@ There are exactly _k_ more lines. Each line contains the _x_ (0≤_x_≤10^9) an
 
 The star positions and _d_ are guaranteed to obey the clustering constraint discussed above.
 
-##Output
+## Output
 If the PU described by the input has a galaxy containing more than half of the stars, display the number of stars in that galaxy. Otherwise, display NO.
 
-###Testing
+### Testing
 Usage: `python create_test.py <d> <k> [output.txt]`
 Creates a problem input file with galactic diameter _d_, and _k_ stars.
 Can optionally specify a name for the created file.
 
-###Notes
+### Notes
 `c_solver.c` utilizes an algorithm with recurrence relation T(n) = 2T(n/2) + O(n), for an upper-bound asymptotic complexity of O(nlog(n)) [Master Thm.].
 `2c_solver.c` utilizes an algorithm with recurrence relation T(n) = T(n/2) + O(n), for an upper-bound asymptotic complexity of O(n) [Master Thm.].
