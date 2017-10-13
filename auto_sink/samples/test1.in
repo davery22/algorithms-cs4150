@@ -1,0 +1,17 @@
+4
+Sourceville 5
+SinkCity 10
+Easton 20
+Weston 15
+4
+Sourceville Easton
+Sourceville Weston
+Weston SinkCity
+Easton SinkCity
+6
+Sourceville SinkCity
+Easton SinkCity
+SinkCity SinkCity
+Weston Weston
+Weston Sourceville
+SinkCity Sourceville

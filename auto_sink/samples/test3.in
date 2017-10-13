@@ -1,0 +1,34 @@
+11
+a 4
+b 3
+c 9
+d 2
+e 5
+f 3
+g 5
+h 8
+i 2
+j 2
+k 7
+13
+a b
+a d
+a c
+i j
+j c
+j k
+b g
+b f
+d f
+d e
+c f
+g h
+f h
+7
+a f
+a g
+a e
+a h
+i h
+c k
+i d
