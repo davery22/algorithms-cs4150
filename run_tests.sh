@@ -10,7 +10,7 @@ INTERPRETER=./
 PROGRAM=a.out
 
 # Provide the path to your test directory.
-TESTS=samples
+TESTS=tests
 
 # Light error checking.
 if [ $# -gt 1 ]; then
